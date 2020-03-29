@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Create an account</h1>
+        </div>
+        <div>
+            <form action="/action_page.php">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+        </div>
+        <br>
+        <div>
+            <form action="/action_page.php">
+                <label for="pwrd">Password:</label><br>
+                <input type="password" id="pwrd" name="pwrd"><br>
+
+        </div>
+        <br>
+        <div>
+            <form action="/action_page.php">
+                <label for="age">Age:</label>
+                <br>
+                <select id="age" name="age">
+                  <option value="Select Age">Select Age</option>
+                  <option value="15-20">15-20</option>
+                  <option value="20-25">20-25</option>
+                  <option value="25-30">25-30</option>
+                  <option value="30-35">30-35</option>
+                </select>
+              </form>
+        </div>
+        <br>
+        <div>
+            <p> Tell us a little about yourself:</p>
+            <textarea name="message" rows="10" cols="30"></textarea>
+        </div>
+        <br>
+        <div>
+            <form action="/action_page.php">
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree"> I agree to the <u style="color: blue;">terms of service</u></label><br>
+              </form>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Sign up">
+        </div>
+    </div>
+</body>
+
+</html>
